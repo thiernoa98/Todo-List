@@ -60,7 +60,6 @@ function App() {
         <h1>🧐👇</h1>
         <br />
         <div>
-          {/* Todos go here... */}
           {todos.map((todo, index)=>{
             return <Todo 
                 key={index} todo={todo} index={index} markComplete={markComplete}
